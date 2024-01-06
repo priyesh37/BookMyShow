@@ -8,11 +8,12 @@ import lombok.Setter;
 
 import java.util.UUID;
 
-@Entity
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
+@Entity
 public class Ticket {
 	
 		@Id

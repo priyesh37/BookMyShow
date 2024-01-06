@@ -32,7 +32,7 @@ public class HallService {
 	        List<Hall> halls = hallOwnerSignUpDTO.getHalls();
 	        applicationUserRepository.save(hallOwner);
 	        for(Hall hall : halls){
-//	            hall.setOwner(hallOwner);
+	            hall.setOwner(hallOwner);
 	            hallRepository.save(hall);
 	        }
 	        return hallOwner;
