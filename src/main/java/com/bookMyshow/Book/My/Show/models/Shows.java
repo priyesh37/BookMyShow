@@ -14,11 +14,11 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Show {
+public class Shows {
 	
 	
 	 	@Id
-	    @GeneratedValue(strategy = GenerationType.AUTO)
+	 	@GeneratedValue(strategy = GenerationType.AUTO)
 	    UUID id;
 	 	
 	    @JsonIgnore

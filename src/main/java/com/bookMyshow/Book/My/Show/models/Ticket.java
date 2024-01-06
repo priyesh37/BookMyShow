@@ -29,6 +29,6 @@ public class Ticket {
 	    Hall hall;
 	    
 	    @ManyToOne
-	    Show show;
+	    Shows show;
 
 }

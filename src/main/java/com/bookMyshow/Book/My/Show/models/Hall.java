@@ -33,7 +33,7 @@ public class Hall {
 	    List<Screen> screens;
 	    
 	    @OneToMany(mappedBy = "hall")
-	    List<Show> shows;
+	    List<Shows> shows;
 	    
 	    @OneToMany(mappedBy = "hall")
 	    List<Ticket> tickets;
