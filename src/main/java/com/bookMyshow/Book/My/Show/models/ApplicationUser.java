@@ -19,8 +19,8 @@ public class ApplicationUser {
 	
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	UUID id ;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	int id ;
 	
 	String name;
 	

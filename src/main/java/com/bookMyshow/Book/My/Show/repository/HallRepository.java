@@ -9,7 +9,7 @@ import com.bookMyshow.Book.My.Show.models.Hall;
 
 
 @Repository
-public interface HallRepository extends JpaRepository<Hall, UUID> {
+public interface HallRepository extends JpaRepository<Hall, Integer> {
 
 	
 }

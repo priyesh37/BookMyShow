@@ -18,9 +18,9 @@ public class Hall {
 
 	
 	 	@Id
-	    @GeneratedValue(strategy = GenerationType.AUTO)
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    //@Schema(accessMode = Schema.AccessMode.READ_ONLY, example = "21072a55-5394-43bb-8f1b-9a36cf396563")
-	    UUID id;
+		int id;
 	 	
 	    String name;
 	    

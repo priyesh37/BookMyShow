@@ -18,8 +18,8 @@ public class Screen {
 
 	
 	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    int id;
 	
     String screenName;
     

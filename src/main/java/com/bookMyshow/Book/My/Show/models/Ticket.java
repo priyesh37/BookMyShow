@@ -17,9 +17,9 @@ import java.util.UUID;
 public class Ticket {
 	
 		@Id
-	    @GeneratedValue(strategy = GenerationType.AUTO)
-	    UUID id;
-		
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+		int id;
+
 	    @ManyToOne
 	    ApplicationUser user;
 	    

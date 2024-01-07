@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.bookMyshow.Book.My.Show.models.Movie;
 
-public interface MovieRepository extends JpaRepository<Movie, UUID> {
+public interface MovieRepository extends JpaRepository<Movie, Integer> {
 
 }

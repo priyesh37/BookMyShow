@@ -34,7 +34,7 @@ public class MovieService {
         List<Movie> movies = movieOwnerSignUpDTO.getMovies();
         applicationUserRepository.save(movieOwners);
         for(Movie movie : movies){
-//            movie.setOwner(movieOwners);
+            movie.setOwner(movieOwners);
             movieRepository.save(movie);
         }
         return movieOwners;
